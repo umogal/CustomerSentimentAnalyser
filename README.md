@@ -1,6 +1,8 @@
 ### Customer Feedback Sentiment and Text Analysis Tool
 
-A command-line utility developed in Python for analyzing the sentiment and extracting key features from textual data using the TextBlob library. Designed for reliable operation in production environments.
+Developed as a command-line utility in Python, this tool analyzes sentiment and extracts key features from textual data using the TextBlob library. Initially created locally in my spare time for experimentation and learning, the GitHub repository was established after ensuring the tool was designed for reliable operation in production environments.
+
+W.I.P : Expect Breaking Changes 
 
 ## Features
 
