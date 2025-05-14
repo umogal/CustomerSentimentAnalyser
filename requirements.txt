@@ -1,0 +1,10 @@
+# requirements.txt
+#
+# This file lists the Python packages required to run the sentiment analysis tool.
+# Install these dependencies using pip:
+# pip install -r requirements.txt
+
+# TextBlob: Library for processing textual data.
+# Used for sentiment analysis, noun phrase extraction, and language detection.
+# Specifying a minimum version to ensure required features are available.
+TextBlob>=0.17.1
