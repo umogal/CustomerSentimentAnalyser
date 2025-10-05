@@ -1,8 +1,9 @@
+![](https://github.com/umogal/CustomerSentimentAnalyser/blob/main/splash_logo_um.jpg)
 ### Customer Feedback Sentiment and Text Analysis Tool
 
 Developed as a command-line utility in Python, this tool analyzes sentiment and extracts key features from textual data using the TextBlob library. Initially created locally in my spare time for experimentation and learning, the GitHub repository was established after ensuring the tool was designed for reliable operation in production environments.
 
-**W.I.P : Expect Breaking Changes** 
+# **W.I.P : Expect Breaking Changes and New Features** 
 
 **Looking for contributors!**
 
