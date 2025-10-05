@@ -2,7 +2,12 @@
 
 Developed as a command-line utility in Python, this tool analyzes sentiment and extracts key features from textual data using the TextBlob library. Initially created locally in my spare time for experimentation and learning, the GitHub repository was established after ensuring the tool was designed for reliable operation in production environments.
 
-W.I.P : Expect Breaking Changes 
+**W.I.P : Expect Breaking Changes** 
+
+> ℹ️ **License & Usage:** This project is licensed under the **AGPL-3.0**. Free for personal and commercial use under the AGPL terms. Unauthorized reselling, relicensing, or white-labeling requires written permission. Contact me directly for licensing. Someone DMed me about a "repo thief" trying to pass this off as their own, frankly, I’m flattered.
+
+
+
 
 ## Features
 
