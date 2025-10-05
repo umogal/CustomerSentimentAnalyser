@@ -4,7 +4,9 @@ Developed as a command-line utility in Python, this tool analyzes sentiment and 
 
 **W.I.P : Expect Breaking Changes** 
 
-> ℹ️ **License & Usage:** This project is licensed under the **AGPL-3.0**. Free for personal and commercial use under the AGPL terms. Unauthorized reselling, relicensing, or white-labeling requires written permission. Contact me directly for licensing. Someone DMed me about a "repo thief" trying to pass this off as their own, frankly, I’m flattered.
+**Looking for contributors!**
+
+>  **License & Usage:** This FOSS project is licensed under the **AGPL-3.0**. Free for personal and commercial use under the AGPL terms. Unauthorized reselling, relicensing, or white-labeling requires written permission. Contact me directly for licensing. Someone DMed me about a "repo thief" trying to pass this off as their own, frankly, I’m flattered. - @umogal
 
 
 
