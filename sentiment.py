@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.WARNING, stream=sys.stderr,
 logger = logging.getLogger(__name__)
 
 class SentimentAnalyzer:
-    ""
+    """
     Analyzes text or files, supports sentence-level analysis, language detection,
     noun phrase extraction, and classification based on thresholds.
     Integrates logging for operational visibility.

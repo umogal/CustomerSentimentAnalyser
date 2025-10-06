@@ -33,7 +33,7 @@ Developed as a command-line utility in Python, this tool analyzes sentiment and 
 ## Installation
 
 1.  Ensure you have Python installed.
-2.  Save the provided Python script (e.g., `sentiment_analyzer.py`).
+2.  Save the provided Python script (e.g., `sentiment.py`).
 3.  Save the provided `requirements.txt` file in the same directory.
 4.  Install the required Python packages using pip:
 
@@ -52,18 +52,18 @@ Developed as a command-line utility in Python, this tool analyzes sentiment and 
 The tool is executed from the command line. It requires either the `-t` (text) or `-f` (file) argument to specify the input.
 
 ```bash
-python sentiment_analyzer.py [INPUT_OPTIONS] [ANALYSIS_OPTIONS] [OUTPUT_OPTIONS] [CONFIGURATION_OPTIONS]
+python sentiment.py [INPUT_OPTIONS] [ANALYSIS_OPTIONS] [OUTPUT_OPTIONS] [CONFIGURATION_OPTIONS]
 ````
 
 ### Input Options (Mutually Exclusive)
 
   * `-t TEXT`, `--text TEXT`: Provide the text string directly for analysis.
     ```bash
-    python sentiment_analyzer.py --text "This service is exceptionally efficient and utterly reliable."
+    python sentiment.py --text "This service is exceptionally efficient and utterly reliable."
     ```
   * `-f FILE`, `--file FILE`: Provide the path to a text file for analysis.
     ```bash
-    python sentiment_analyzer.py --file "path/to/your/feedback.txt"
+    python sentiment.py --file "path/to/your/feedback.txt"
     ```
     *Note: Processing very large files may require significant memory.*
 
@@ -71,22 +71,22 @@ python sentiment_analyzer.py [INPUT_OPTIONS] [ANALYSIS_OPTIONS] [OUTPUT_OPTIONS]
 
   * `-s`, `--sentence-level`: Analyze and report sentiment for each sentence individually, in addition to the overall text.
     ```bash
-    python sentiment_analyzer.py --text "The first part was excellent. The second, less so." --sentence-level
+    python sentiment.py --text "The first part was excellent. The second, less so." --sentence-level
     ```
   * `--noun-phrases`: Extract and display key noun phrases found in the input text.
     ```bash
-    python sentiment_analyzer.py --text "The quick brown fox jumps over the lazy dog." --noun-phrases
+    python sentiment.py --text "The quick brown fox jumps over the lazy dog." --noun-phrases
     ```
   * `--detect-lang`: Attempt to detect the language of the input text.
     ```bash
-    python sentiment_analyzer.py --text "¿Cómo está usted?" --detect-lang
+    python sentiment.py --text "¿Cómo está usted?" --detect-lang
     ```
 
 ### Output Options
 
   * `-j`, `--json`: Output the analysis results in a structured JSON format. This is recommended for integration with other systems or scripting.
     ```bash
-    python sentiment_analyzer.py --file "report.txt" --json
+    python sentiment.py --file "report.txt" --json
     ```
 
 ### Configuration Options
@@ -94,11 +94,11 @@ python sentiment_analyzer.py [INPUT_OPTIONS] [ANALYSIS_OPTIONS] [OUTPUT_OPTIONS]
   * `--pos-threshold FLOAT`: Set the polarity threshold for classifying text as 'Positive' (default: 0.1). Polarity scores equal to or above this value are classified as Positive.
   * `--neg-threshold FLOAT`: Set the polarity threshold for classifying text as 'Negative' (default: -0.1). Polarity scores equal to or below this value are classified as Negative. Scores between the positive and negative thresholds are classified as Neutral.
     ```bash
-    python sentiment_analyzer.py --text "It was okay." --pos-threshold 0.2 --neg-threshold -0.2
+    python sentiment.py --text "It was okay." --pos-threshold 0.2 --neg-threshold -0.2
     ```
   * `--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}`: Set the verbosity level for logging messages (default: WARNING). Logs are written to standard error (stderr).
     ```bash
-    python sentiment_analyzer.py --text "Test log level" --log-level INFO
+    python sentiment.py --text "Test log level" --log-level INFO
     ```
 
 ## Output
