@@ -1,13 +1,15 @@
 ![](https://github.com/umogal/CustomerSentimentAnalyser/blob/main/splash_logo_um.jpg)
 ### Customer Feedback Sentiment and Text Analysis Tool
 
-Developed as a command-line utility in Python, this tool analyzes sentiment and extracts key features from textual data using the TextBlob library. Initially created locally in my spare time for experimentation and learning, the GitHub repository was established after ensuring the tool was designed for reliable operation in production environments.
+Developed as a command-line utility in Python, this tool analyzes sentiment and extracts key features from textual data.
 
-# **W.I.P : Expect Breaking Changes and New Features** 
+Initially created locally in my spare time for experimentation and learning, the GitHub repository was established after ensuring the tool was designed for reliable operation in production environments. 
+
+# **W.I.P : Expect Breaking Changes and Awesome New Features** 
 
 **Looking for contributors!**
 
->  **License & Usage:** This FOSS project is licensed under the **AGPL-3.0**. Free for personal and commercial use under the AGPL terms. Unauthorized reselling, relicensing, or white-labeling requires written permission. Contact me directly for licensing. Someone DMed me about a "repo thief" trying to pass this off as their own, frankly, I’m flattered. - @umogal
+>  **License & Usage:** This FOSS project is licensed under the **AGPL-3.0**. **Free for personal and commercial use** under the AGPL terms. **Unauthorized reselling, relicensing, or white-labeling** requires written permission. Contact me directly for licensing.
 
 
 
@@ -112,7 +114,7 @@ In case of errors (e.g., file not found, analysis failure), an error message wil
 
 ## Notes
 
-  * Sentiment analysis, while useful, is an approximation. TextBlob's analysis is based on its training data and algorithms and may not perfectly capture the nuances of all human language.
+  * Sentiment analysis, while useful, is an approximation. Analysis is based on its training data and algorithms and may not perfectly capture the nuances of all human language.
   * Performance is generally good for typical text inputs. For extremely large files, memory consumption could become a factor.
 
 <!-- end list -->
