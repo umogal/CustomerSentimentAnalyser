@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# ©2025 umogal
 import argparse
 import sys
 import json
@@ -16,7 +18,7 @@ logging.basicConfig(level=logging.WARNING, stream=sys.stderr,
 logger = logging.getLogger(__name__)
 
 class SentimentAnalyzer:
-    ""
+    """
     Analyzes text or files, supports sentence-level analysis, language detection,
     noun phrase extraction, and classification based on thresholds.
     Integrates logging for operational visibility.
