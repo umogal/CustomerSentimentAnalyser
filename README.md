@@ -9,7 +9,8 @@ Initially created locally in my spare time for experimentation and learning, the
 
 **Looking for contributors!**
 
->  **License & Usage:** This FOSS project is licensed under the **AGPL-3.0**. **Free for personal and commercial use** under the AGPL terms. **Unauthorized reselling, relicensing, or white-labeling** requires written permission. Contact me directly for licensing.
+>  **License & Usage:**
+> CustomerSentimentAnalyser™ is a trademark of umogal, © 2025 umogal. All rights reserved. This FOSS project is licensed under the **AGPL-3.0**. **Free for personal and commercial use** under the AGPL terms. **Unauthorized reselling, relicensing, or white-labeling** requires written permission. Contact me directly for licensing.
 
 
 
